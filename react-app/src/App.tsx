@@ -1,8 +1,11 @@
-import Button from "./components/Button";
+import Form from "./components/Form";
 
-
-function App(){
-  return <div><Button onClick={() => console.log('clicked')}>My Button</Button></div>
-}
+const App = () => {
+  return (
+    <div>
+      <Form />
+    </div>
+  );
+};
 
 export default App;
